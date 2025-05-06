@@ -1,11 +1,24 @@
 {
     "files.associations": {
         "iostream": "cpp",
+<<<<<<< Updated upstream
         "ostream": "cpp",
+=======
+<<<<<<< HEAD
+        "istream": "cpp",
+        "ostream": "cpp",
+        "__node_handle": "cpp"
+=======
+        "ostream": "cpp",
+>>>>>>> Stashed changes
         "ratio": "cpp",
         "__split_buffer": "cpp",
         "string": "cpp",
         "vector": "cpp"
+<<<<<<< Updated upstream
+=======
+>>>>>>> 7a4c207 (Object oriented Programming until midterm information)
+>>>>>>> Stashed changes
     },
     "git.ignoreLimitWarning": true
 }
