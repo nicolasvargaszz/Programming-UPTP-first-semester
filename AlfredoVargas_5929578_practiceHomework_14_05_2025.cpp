@@ -234,3 +234,9 @@ int main()
     cout << "========================================\n";
     return 0;
 }
+// End of program
+// This program allows users to practice addition and multiplication of fractions.
+// It includes functionality for mixed numbers, improper fractions, and reducing fractions to their simplest form.
+// The user can enter fractions, and the program will check their answers against the correct solution.
+// The program is designed to be user-friendly and provides feedback on the user's answers.
+// It also includes error handling for invalid inputs, such as zero denominators.
