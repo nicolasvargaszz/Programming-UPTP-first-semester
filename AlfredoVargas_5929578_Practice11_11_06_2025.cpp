@@ -158,6 +158,19 @@ private:
     string courseName;
     int credits;
     char grade;
+    double honorPoints;
+    double gradeToPoints(char grade)
+    {
+        switch(grade)
+        {
+            case 'A' : return 4.0;
+            case 'B' : return 3.0;
+            case 'C' : return 2.0;
+            case 'D' : return 1.0;
+            case 'F' : return 0.0;
+            default: return 0.0; // Handle invalid grade
+        }
+    }
 public:
     CollegeCourse(int id, string name, int cr, char gr)
     {   
@@ -165,12 +178,107 @@ public:
         courseName = name;
         grade = gr;
         credits = cr; 
+        honorPoints = gradeToPoints(grade) * credits;
     }
-    
+
+    //Defual constructor for "summary" object
+    CollegeCourse() : courseID(0), courseName(""), credits(0), grade('F'), honorPoints(0.0) {}
+    // Overloaded operator to add two CollegeCourse objects
+
+    CollegeCourse operator+(const CollegeCourse& other ) const
+    {
+        CollegeCourse result;
+        result.courseID = courseID + other.courseID;
+        result.courseName = courseName + " & " + other.courseName;
+        result.credits = credits + other.credits;
+        result.honorPoints = honorPoints + other.honorPoints;
+        return result;
+    }
+    // Overloaded operator to subtract two CollegeCourse objects
+    CollegeCourse operator/(int divisor) const
+    {
+        CollegeCourse result(*this);
+        if(divisor != 0)
+        {
+            result.honorPoints /= divisor;
+        }
+        return result;
+    }
+    //overload the << operator for output
+    friend ostream& operator<<(ostream& out, const CollegeCourse& course)
+    {
+        out << "Course ID" << course.courseID
+            << ", Course Name: " << course.courseName
+            << " , Credits: " << course.credits
+            << ", Grade: " << course.grade
+            << ", Honor Points: " << course.honorPoints;
+        return out;
+    }
+
 };
 
+//Design a class of your choice where averaging objects makes sense
+
+class AlbirrojaGoals
+{
+private: 
+    int totalGoals;
+public:
+        // Constructor
+    AlbirrojaGoals(int goals = 0) : totalGoals(goals) {}
+
+    // Overload + to sum total goals
+    AlbirrojaGoals operator+(const AlbirrojaGoals& other) const {
+        return AlbirrojaGoals(this->totalGoals + other.totalGoals);
+    }
+
+    // Overload / for dividing total goals by integer
+    // (useful in computing average goals per match)
+    AlbirrojaGoals operator/(int divisor) const {
+        if (divisor == 0) {
+            // Avoid division by zero (return unchanged or handle error)
+            return *this; 
+        }
+        return AlbirrojaGoals(this->totalGoals / divisor);
+    }
+
+    // Overload << to print total goals
+    friend ostream& operator<<(ostream& os, const AlbirrojaGoals& ag) {
+        os << ag.totalGoals << " goals";
+        return os;
+    }
+};
 
 int main()
 {
+   // Demonstrating the average function with different types
+    int intA = 10, intB = 20;
+    cout << "Average of integers: " << average(intA, intB) << endl;
+    double doubleA = 5.5, doubleB = 2.3;
+    cout << "Average of doubles: " << average(doubleA, doubleB) << endl;
+
+    CollegeCourse course1(101, "Math", 3, 'A');
+    CollegeCourse course2(102, "Science", 4, 'B');
+    CollegeCourse summaryCourse = course1 + course2; // Summing two courses
+    cout << "Summary Course: " << summaryCourse << endl;
+    CollegeCourse averageCourse = summaryCourse / 2; // Averaging the summary course
+    cout << "Average Course: " << averageCourse << endl;
+
+    // -----------------------------------------------------------------
+    // Demonstrate using the template functions for AlbirrojaGoals
+    // -----------------------------------------------------------------
+    AlbirrojaGoals match1(3), match2(2), match3(4);
+    AlbirrojaGoals totalGoals = match1 + match2 + match3; 
+    cout << "\nTotal Goals in three matches: " << totalGoals << endl;
+
+    // Average of two matches
+    AlbirrojaGoals avg2Matches = average(match1, match2);
+    cout << "Average of match1 and match2: " << avg2Matches << endl;
+
+    // Average of three matches
+    AlbirrojaGoals avg3Matches = avergae(match1, match2, match3);
+    cout << "Average of match1, match2, and match3: " << avg3Matches << endl;
+    // -----------------------------------------------------------------
+
     return 0;
 }
