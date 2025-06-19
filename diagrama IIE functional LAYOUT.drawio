@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="KBXy0vLBavp2CHmax5p8">
+    <mxGraphModel dx="1013" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q6oAmHL27UJHbprLm61I-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-1" target="Q6oAmHL27UJHbprLm61I-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-1" target="Q6oAmHL27UJHbprLm61I-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-1" target="Q6oAmHL27UJHbprLm61I-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-1" value="CEO(Chief Executive Officer)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-2" value="Production Department" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-3" value="&lt;b&gt;Logistics and Inventory Department&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-4" value="&lt;b&gt;General Coordinator / VP&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.545;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-1" target="Q6oAmHL27UJHbprLm61I-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384.5" y="140" as="sourcePoint" />
+            <mxPoint x="384.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-15" value="&lt;b&gt;Finance and Administration Department&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-17" value="&lt;b&gt;Human Resources Department&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.033;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q6oAmHL27UJHbprLm61I-1" target="Q6oAmHL27UJHbprLm61I-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-31" value="&lt;div&gt;&lt;b&gt;- Cost Management and Budgeting&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Tax Compliance (RUC, SET)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Invoicing and Financial Reports&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-32" value="&lt;div&gt;&lt;b&gt;-Raw Material Reception&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Washing and Peeling&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Boiling (Batch Cooking)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;- Filling and Sterilization&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-33" value="&lt;div&gt;&lt;b&gt;- Finished Product Storage (FIFO)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Packaging Inventory&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;- Supplier and Delivery Coordination&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="475" y="360" width="100" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6oAmHL27UJHbprLm61I-34" value="&lt;div&gt;&lt;b&gt;- Worker Registration (Social Security - IPS)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;PPE Compliance and Safety Training&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;Attendance, Shifts and Legal Compliance&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="100" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
