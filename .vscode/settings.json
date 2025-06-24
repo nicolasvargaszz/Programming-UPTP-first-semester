@@ -3,7 +3,8 @@
         "iostream": "cpp",
         "istream": "cpp",
         "ostream": "cpp",
-        "__node_handle": "cpp"
+        "__node_handle": "cpp",
+        "variant": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
